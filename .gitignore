@@ -1,15 +1,6 @@
-*.mp4
-*.avi
-*.mov
-*.mkv
-*.flv
-*.wmv
-*.webm
-*.m4a
-*.mp3
-*.wav
-*.flac
-*.aac
-*.ogg
-*.wma
-/media/
+# استبعاد كل الملفات أولًا
+*
+
+# السماح برفع ملفات Jupyter Notebook فقط
+!*.ipynb
+!.gitignore
